@@ -1,0 +1,37 @@
+{
+  "name": "guzi",
+  "version": "0.0.1",
+  "description": "Data Objects persistence library.",
+  "main": "build/main.js",
+  "types": "build/main.d.ts",
+  "scripts": {
+    "tsc": "tsc",
+    "prepublishOnly": "tsc",
+    "start": "tsc & node build/main.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manix/guzi.git"
+  },
+  "author": "Manix <admin@manix.info>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/manix/guzi/issues"
+  },
+  "homepage": "https://github.com/manix/guzi#readme",
+  "devDependencies": {
+    "@types/msgpack-lite": "^0.1.5",
+    "@types/mysql": "0.0.34",
+    "@types/node": "^8.0.28",
+    "mocha": "^3.5.3",
+    "typescript": "^2.5.2"
+  },
+  "dependencies": {
+    "@types/sqlite3": "^3.1.1",
+    "msgpack-lite": "^0.1.26",
+    "mysql": "^2.14.1",
+    "sqlite3": "^3.1.11",
+    "squel": "^5.11.1"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "drivers": {
+    "fs": "data/fs.db",
+    "sqlite": "data/db.sqlite",
+    "mysql": {
+      "host": "",
+      "user": "",
+      "pass": ""
+    }
+  }
+}
